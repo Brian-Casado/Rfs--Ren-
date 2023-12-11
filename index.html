@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Agrega estilos para la clase 'active' */
+        .main-menu__link.active {
+            text-decoration: underline; /* Puedes ajustar esto según tus preferencias */
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="main-nav">
+        <div id="toggle-menu" class="toggle-menu">
+            <img src="hamburger-menu-icon-png-white-15.jpg.png" alt="">
+        </div>
+        <ul id="main-menu" class="main-menu">
+            <div class="logo">
+                <div class="cube">
+                    <a href="index.html">
+                        <h3>RFS </h3>
+                        <h4>Towing LLC</h4>
+                    </a>
+                </div>
+            </div>
+            <li class="main-menu__item">
+                <a href="index.html" id="homeLink" class="main-menu__link">Home</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="#serviceDestino" id="serviceLink" class="main-menu__link">Service</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="#mapDestino" id="locationLink" class="main-menu__link">Location</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="#seccionDestino" id="aboutLink" class="main-menu__link">About</a>
+            </li>
+            <li id="btn">
+                <button id="contactButton"><h3>CONTACT US NOW!</h3></button>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="wallPapper-textContainer">
+        <small>24 Hours 7 Days • Pickup Deliver Anywhere</small>
+        <h1>We buy Junk Cars!</h1>
+        <h3>Towing Service </h3>
+    </div>
+
+    <img src="R.F.S-DARK-WALLPAPPER-TRUCK.jpg" alt="">
+    <div class="main-cont-number">
+        <div class="phone-number-container">
+            <small><i class='bx bx-phone'></i> René fuentes <br> [24/7] <a id="phone-link" style="color: #ffff;" href="#">850-495-8272</a></small>
+        </div>
+        <script>
+            document.getElementById('phone-link').addEventListener('click', function () {
+                var phoneNumber = '8504958272';
+                window.location.href = 'tel:' + phoneNumber;
+            });
+        </script>
+    </div>
+
+    <div class="row" id="seccionDestino">
+        <aside>
+            <div class="about1">
+                <h1>About</h1>
+                <p class="sub-tittle">
+                    The best and insured <br> towing service in Luisiana!
+                </p>
+                <small class="rene-bio">
+                    About Mr. René: Meet the driving force behind our exceptional towing services, Mr. René.
+                    With a passion for helping people in their time of need, Mr. René founded this company with
+                    a vision to provide top-notch towing services coupled with unmatched customer care. His 6
+                    years of experience in the industry and dedication to excellence have made René's Towing
+                    Service a name you can trust.
+                </small>
+                <img class="René" src="René's-pic.jpeg" alt="">
+            </div>
+        </aside>
+        <section class="sectioN">
+            <img src="r.f.s-truck.jpeg" alt="">
+        </section>
+    </div>
+
+    <hr style="width: 25%;">
+
+    <main>
+        <img id="mapDestino" src="map-image.jpg" alt="">
+    </main>
+
+    <header id="" class="page-header">
+        <div class="container flow" id="seccionDestino2">
+        </div>
+    </header>
+    <h2 class="section-title">Our service in Luisiana</h2>
+
+    <div id="serviceDestino" class="media-scroller snaps-inline">
+        <div class="media-element">
+            <img src="Junkyard.png" alt="">
+            <p class="title">We buy Junk Cars</p>
+        </div>
+        <div class="media-element">
+            <img src="tow-icon-truck.jpeg" alt="">
+            <p class="title">Towing Service</p>
+        </div>
+        <div class="media-element">
+            <img src="coctac-orange.png" alt="">
+            <p class="title">Contact ss 24/7</p>
+        </div>
+        <div class="media-element">
+            <img src="web-dev.png" alt="">
+            <p class="title">Web Development</p>
+        </div>
+        <div class="media-element">
+            <img src="https://images.unsplash.com/photo-1641841344411-49dbd02896f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=400" alt="">
+            <p class="title">Transportation</p>
+        </div>
+        <div class="media-element">
+            <img src="map-image.jpg" alt="">
+            <p class="title">Luisiana USA</p>
+        </div>
+        <div class="media-element">
+            <img src="https://images.unsplash.com/photo-1642237778207-24985a0bf876?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="">
+            <p class="title">We're here</p>
+        </div>
+        <div class="media-element">
+            <img src="https://images.unsplash.com/photo-1643249960396-d39d2a63ce8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODg0Mw&ixlib=rb-1.2.1&q=80&w=400" alt="">
+            <p class="title">To help</p>
+        </div>
+        <div class="media-element">
+            <img src="https://images.unsplash.com/photo-1642177584449-fa0b017dccc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODc5NQ&ixlib=rb-1.2.1&q=80&w=400" alt="">
+            <p class="title">Our community</p>
+        </div>
+    </div>
+
+    <script>
+        const toggleMenuElement = document.getElementById('toggle-menu');
+        const mainMenuElement = document.getElementById('main-menu');
+        const links = document.querySelectorAll('.main-menu__link'); // Obtener todos los enlaces del menú
+
+        toggleMenuElement.addEventListener('click', () => {
+            mainMenuElement.classList.toggle('main-menu--show');
+        });
+
+        // Agregar función al botón "CONTACT US NOW!"
+        const contactButton = document.getElementById('contactButton');
+        contactButton.addEventListener('click', function () {
+            var phoneNumber = '8504958272';
+            window.location.href = 'tel:' + phoneNumber;
+        });
+
+
+    </script>
+
+    <footer>
+        <div class="container1">
+            <div class="row1">
+                <div class="col-xs-6 col-s-3 icon-footer">
+                    <img src="support.svg.png" alt="icono de atención al cliente" height="60" />
+                    <p><strong>Support</strong> <br> 7 Days 24 Hours</p>
+                </div>
+                <div class="col-xs-6 col-s-3 icon-footer">
+                    <img src="secure-mop.svg.png" alt="icono de pago seguro" height="60" />
+                    <p><strong>Save Payment</strong> <br> 100% safe</p>
+                </div>
+            </div>
+            <div class="">
+                <p>&copy; Brian Casado</p>RFS LLC</p>
+                <p>Dominican Republic and Luisiana State</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
