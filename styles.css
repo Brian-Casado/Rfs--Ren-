@@ -229,6 +229,7 @@ main button{
     top: 75%;
     left: 5%;
     font-size: 2.2vw;
+    margin: 10px;
 }
 
 .wallPapper-textContainer small {
@@ -437,6 +438,7 @@ section img{
   grid-auto-columns: 21%;
   background-color: #eceaea44;
   text-align: center;
+  margin: 10px;
 
   padding: 0 var(--_spacer) var(--_spacer);
 
